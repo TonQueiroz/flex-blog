@@ -269,39 +269,75 @@ article{
 
 
         /*Conteúdo Aside*/
-    aside  div.complemento{       
-               
-        
+    aside  div.complemento{
         background-color: lightgreen; 
         width: 80vw;   
-        
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        flex-direction: row;
+        flex-wrap: 1;
+
     }
 
 
+    aside{
+        display: flex;
+        flex-direction: row;
+        
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+        
+    }
 
+    aside div.complemento {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;        
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+
+
+    }
 
     aside div.complemento div {
 
         display: flex;
-        justify-content: center;
-        align-items: center;
-        align-self: center;
+        
         flex-wrap: 1;
         flex-direction: column;
 
-        width: 30%;
-        min-width: 240px;
-        max-width: 270px;
-        margin: 10px 0px ;
-
-
-
-
+        width: 100%;
+        min-width: 200px;
+        max-width: 200px;
+        margin: 20px 20px ;
 
         text-align: center;
 
-        background-color: rgb(233, 126, 126);
+        background-color: rgb(237, 238, 237);
+        border-radius: 10px;
     }
+
+    aside div.complemento div h2{
+
+        background-color: lightgrey;
+        border-radius: 10px 10px 0px 0px;
+
+        
+    }
+
+    aside div.complemento div input{
+
+        margin: 10px;
+
+        
+    }
+
+
 
 /*Conteúro Footer*/
 
