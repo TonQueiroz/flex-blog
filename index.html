@@ -29,7 +29,7 @@
                 <div >
                 <p>FlexBlog</p>
                 </div>
-                <div class="cmenuh"> <span class="material-symbols-outlined">
+                <div class="cmenuh" onclick="clickmenu()"> <span class="material-symbols-outlined">
                     menu
                     </span></div>
 
@@ -187,5 +187,15 @@
 
         </footer>
     
+        <script>
+            function clickmenu(){
+                if(idnavret.style.display== "flex"){
+                    idnavret.style.display = "none"
+                }else{
+                    idnavret.style.display = "flex"
+                }
+            }
+        </script>
+
 </body>
 </html>

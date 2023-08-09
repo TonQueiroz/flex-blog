@@ -75,7 +75,13 @@ header div.conteudonav {
 }
 
 div #idnavret{
-    display: none;
+    display: flex;
+    
+}
+
+header div.cmenuh {
+    width: 100px;
+    text-align: center;
 }
 
 
@@ -84,6 +90,7 @@ header div.cmenuh:hover {
     background-color: white;
     text-decoration: underline;
     color: blue;
+    cursor: pointer;
 
 }
 
